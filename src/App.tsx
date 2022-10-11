@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ContainerStyled from "./components/ContainerStyled";
+import PageStyled from "./components/PageStyled";
+import FormScreen from "./screens/FormScreen";
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <PageStyled>
+      <ContainerStyled>
+        <h1>Form</h1>
+      <FormScreen />
+      </ContainerStyled>
+    </PageStyled>
+    </>
   );
 }
 

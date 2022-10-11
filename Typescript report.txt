@@ -1,0 +1,23 @@
+It has a very different folder structure, It doesn't have index.js and App.js in its root folder, it consists of a folder named apps, that has multiple
+apps in it. 
+
+Checked the the-crew-ui folder in the apps folder, since that was supposed to be the front end part of this application, even this folder doesn't have
+index.js and app.js in its root folder, but this contains a source folder.
+
+The source folder of the-crew-ui consisted of main.tsx instead of index.js or index.tsx, the app is being rendered in this file.
+
+App.tsx is present in the app folder inside the source folder, this app folder consists of all the components, assets, services etc..., the redux store
+and slices are also present inside this app folder.
+
+All the types are defined inside the types folder present inside the apps folder. Types are defined as class, with constructors in it.
+
+Every folder consisted of index.tsx file in which multiple components from all the folders are imported to and exported from.
+
+It also has a folder named models that contains mutiple classes defined.
+
+Actually lib folder inside src has different folders that has mulptiple classes defined.
+Inside the types folder that's in src, different interfaces were defined.
+
+I've get more idea about redux thunk.
+
+I understood this app is an ecommerce app by looking into the code
